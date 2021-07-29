@@ -11,19 +11,19 @@
 
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:creator" content="@sgkang09">
-        <meta name="twitter:image" content="https://sgkang.github.io/images/thumb/simpeg.png">
+        <meta name="twitter:image" content="https://sgkang.github.io/images/thumb/aem_butte.png">
     <meta name="twitter:site" content="@sgkang09">
-    <meta name="twitter:title" content="SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications">
-            <meta name="twitter:description" content="Abstract Inverse modeling is a powerful tool for extracting information about the subsurface from geophysical data. Geophysical inverse prob...">
+    <meta name="twitter:title" content="Exploring the Model Space of Airborne Electromagnetic Data to Delineate Large-Scale Structure and Heterogeneity within an Aquifer System">
+            <meta name="twitter:description" content="Abstract Airborne electromagnetic (AEM) data can be inverted to recover models of the electrical resistivity of the subsurface; these, in tu...">
 
-    <meta property="og:title" content="SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications">
+    <meta property="og:title" content="Exploring the Model Space of Airborne Electromagnetic Data to Delineate Large-Scale Structure and Heterogeneity within an Aquifer System">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sgkang.github.io/papers/simpeg2015.html">
+    <meta property="og:url" content="https://sgkang.github.io/papers/aem_model_2021.html">
     <meta property="og:site_name" content="Seogi Kang">
-        <meta property="og:image" content="https://sgkang.github.io/images/thumb/simpeg.png">
-            <meta property="og:description" content="Abstract Inverse modeling is a powerful tool for extracting information about the subsurface from geophysical data. Geophysical inverse prob...">
+        <meta property="og:image" content="https://sgkang.github.io/images/thumb/aem_butte.png">
+            <meta property="og:description" content="Abstract Airborne electromagnetic (AEM) data can be inverted to recover models of the electrical resistivity of the subsurface; these, in tu...">
 
-    <title>    SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications | Seogi Kang
+    <title>    Exploring the Model Space of Airborne Electromagnetic Data to Delineate Large-Scale Structure and Heterogeneity within an Aquifer System | Seogi Kang
 </title>
     <link rel="shortcut icon" href="/images/favicon.png">
 
@@ -63,11 +63,11 @@
         <li><a href="/">Home</a></li><li><a href="/papers/">Papers</a></li></ol>
 
 
-    <h1>SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications</h1>
+    <h1>Exploring the Model Space of Airborne Electromagnetic Data to Delineate Large-Scale Structure and Heterogeneity within an Aquifer System</h1>
 
         <p class="pub-date-author">
-            Rowan Cockett, <strong>Seogi Kang</strong>, Lindsey Heagy, Adam Pidlisekcy, Douglas Oldenburg
-                <span class="post-date">(2015)</span>
+            <strong>Seogi Kang</strong>, Rosemary Knight, Todd Greene, Chritina Buck, Graham Fogg
+                <span class="post-date">(2021)</span>
         </p>
 
     
@@ -76,27 +76,24 @@
 
     <div class="info">
         <ul class="fa-ul"><li>
-                <i class="fa-li ai ai-open-access fa-fw" title="Open-access article"></i>
-                Open-Access
-            </li><li>
                 <i class="fa-li fa fa-book fa-fw" title="Journal name"></i>
-                Journal: <em>Computers and Geosciences</em>
+                Journal: <em>Water Resources Research</em>
             </li><li>
                 <i class="fa-li fa fa-external-link fa-fw" title="DOI link to publisher"></i>
-                doi: <a href="https://doi.org/10.1016/j.cageo.2015.09.015">10.1016/j.cageo.2015.09.015</a>
+                doi: <a href="https://doi.org/10.1002/essoar.10506076.1">10.1002/essoar.10506076.1</a>
             </li><li>
                 <i class="fa-li fa fa-tags fa-fw" title="tags"></i>
                     <div class="tag-list">
-        <ul><li><span class="label label-default tag tag-link"><a href="/tag/simpeg">simpeg</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/open-source">open-source</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/simulation">simulation</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/inversion">inversion</a></span></li></ul>
+        <ul><li><span class="label label-default tag tag-link"><a href="/tag/aem">aem</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/groundwater">groundwater</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/uncertainty">uncertainty</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/inversion">inversion</a></span></li></ul>
     </div>
             </li></ul>
     </div>
 
     <h2 id="abstract">Abstract</h2>
-<p>Inverse modeling is a powerful tool for extracting information about the subsurface from geophysical data. Geophysical inverse problems are inherently multidisciplinary, requiring elements from the relevant physics, numerical simulation, and optimization, as well as knowledge of the geologic setting, and a comprehension of the interplay between all of these elements. The development and advancement of inversion methodologies can be enabled by a framework that supports experimentation, is flexible and extensible, and allows the knowledge generated to be captured and shared. The goal of this paper is to propose a framework that supports many different types of geophysical forward simulations and deterministic inverse problems. Additionally, we provide an open source implementation of this framework in Python called SimPEG (Simulation and Parameter Estimation in Geophysics, http://simpeg.xyz). Included in SimPEG are staggered grid, mimetic finite volume discretizations on a number of structured and semi-structured meshes, convex optimization programs, inversion routines, model parameterizations, useful utility codes, and interfaces to standard numerical solver packages. The framework and implementation are modular, allowing the user to explore, experiment with, and iterate over a variety of approaches to the inverse problem. SimPEG provides an extensible, documented, and well-tested framework for inverting many types of geophysical data and thereby helping to answer questions in geoscience applications. Throughout the paper we use a generic direct current resistivity problem to illustrate the framework and functionality of SimPEG.</p>
+<p>Airborne electromagnetic (AEM) data can be inverted to recover models of the electrical resistivity of the subsurface; these, in turn, can be transformed to obtain models of sediment type. AEM data were acquired in Butte and Glenn Counties, California, U.S.A. to improve the understanding of the aquifer system. Around 800 line-kilometers of high-quality data were acquired, imaging to a depth of ~300 m. We developed a workflow designed to obtain, from the AEM data, information about the large-scale structure and heterogeneity of the aquifer system to better understand the vertical connectivity. Using six different inversions incorporating various forms of available information and posterior sampling of the recovered resistivity models, we produced 6006 resistivity models. These models were transformed to models of sediment type and estimates of percentage of sand/gravel. Exploring the model space, containing the resistivity models and the derived models, allowed us to delineate the large-scale structure of the aquifer system in a way that captures and communicates the uncertainty in the identified sediment type. The uncertainty increased, as expected, with depth, but also served to indicate, as areas of high uncertainty in sediment type, the location of both large-scale and small-scale interfaces between sediment type. A plan view map of the integrated percentage of sand/gravel, when compared to existing hydrographs, revealed the extent of lateral changes in vertical connectivity within the aquifer system throughout the study area.</p>
 
         <h2>Citation</h2>
-        <p>Cockett, R., S. Kang, L. J. Heagy, A. Pidlisecky, and D. W. Oldenburg, 2015, SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications: Computers & Geosciences, 85, Part A, 142–154.</p>
+        <p>Kang, S., R. Knight, T. J. Greene, C. Buck, and G. E. Fogg, 2021, Exploring the Model Space of Airborne Electromagnetic Data to Delineate Large-Scale Structure and Heterogeneity within an Aquifer System: Earth and Space Science Open Archive.</p>
 
 <h2>Article Level Metrics</h2>
 
@@ -106,40 +103,28 @@
              data-badge-details="right"
              data-condensed="true"
              data-badge-type="medium-donut"
-             data-doi="10.1016/j.cageo.2015.09.015"
+             data-doi="10.1002/essoar.10506076.1"
         >
         </div>
                         </div></div>
                 </div><div class="col-md-6 altmetric-badge-group">
                     <div class="row"><div class="col-xs-12">
-                            <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cageo.2015.09.015" data-legend="always"></span>
+                            <span class="__dimensions_badge_embed__" data-doi="10.1002/essoar.10506076.1" data-legend="always"></span>
                         </div></div>
                 </div></div>    <hr><div class="panel panel-default feedback">
         <div class="panel-body">
                 <i class="fa fa-comments fa-fw" title=""></i><strong>Comments?</strong>
             Let me know on Twitter
-            (<a href="https://twitter.com/intent/tweet?text=@sgkang09&url=https://sgkang.github.io/papers/simpeg2015.html">tweet @sgkang09</a>).</div>
+            (<a href="https://twitter.com/intent/tweet?text=@sgkang09&url=https://sgkang.github.io/papers/aem_model_2021.html">tweet @sgkang09</a>).</div>
     </div><div class="panel panel-default feedback">
         <div class="panel-body">
                 <i class="fa fa-bug fa-fw" title=""></i><strong>Found a typo/mistake?</strong>
-            Send a <a href="https://github.com/sgkang/website/edit/master/papers\simpeg2015.md">fix through Github</a>.
+            Send a <a href="https://github.com/sgkang/website/edit/master/papers\aem_model_2021.md">fix through Github</a>.
             All you need is an account and 5 minutes!</div>
     </div>
 
             <h2>Related pages</h2>
             <div class="card-index"><div class="row"><div class="col-md-6"><div class="row"><div class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="/papers/aem_model_2021.html">
-    <div class="row card">
-        <div class="col-md-12 card-thumbnail">
-            <img class="" alt="Thumbnail image for publication."
-         src="/images/thumb/aem_butte.png">
-        </div>
-        <div class="col-md-12 card-caption"><span class="card-title">
-                Exploring the Model Space of Airborne Electromagnetic Data to Delineate Large-Scale Structure and Heterogeneity within an Aquifer System
-            </span><br>
-                <span class="card-date">(2021)</span><br></div>
-    </div></a>
-                    </div><div class="col-md-6 col-sm-6 col-xs-6">
                         <a href="/papers/ert_2021.html">
     <div class="row card">
         <div class="col-md-12 card-thumbnail">
@@ -151,7 +136,7 @@
             </span><br>
                 <span class="card-date">(2021)</span><br></div>
     </div></a>
-                    </div></div></div><div class="col-md-6"><div class="row"><div class="col-md-6 col-sm-6 col-xs-6">
+                    </div><div class="col-md-6 col-sm-6 col-xs-6">
                         <a href="/papers/powerline2021.html">
     <div class="row card">
         <div class="col-md-12 card-thumbnail">
@@ -163,7 +148,7 @@
             </span><br>
                 <span class="card-date">(2021)</span><br></div>
     </div></a>
-                    </div><div class="col-md-6 col-sm-6 col-xs-6">
+                    </div></div></div><div class="col-md-6"><div class="row"><div class="col-md-6 col-sm-6 col-xs-6">
                         <a href="/papers/ip_2016.html">
     <div class="row card">
         <div class="col-md-12 card-thumbnail">
@@ -172,6 +157,18 @@
         </div>
         <div class="col-md-12 card-caption"><span class="card-title">
                 On recovering distributed IP information from inductive source time domain electromagnetic data
+            </span><br>
+                <span class="card-date">(2016)</span><br></div>
+    </div></a>
+                    </div><div class="col-md-6 col-sm-6 col-xs-6">
+                        <a href="/papers/tkc_2017.html">
+    <div class="row card">
+        <div class="col-md-12 card-thumbnail">
+            <img class="" alt="Thumbnail image for publication."
+         src="/images/thumb/tkc_2017.png">
+        </div>
+        <div class="col-md-12 card-caption"><span class="card-title">
+                Inversion of airborne geophysics over the DO-27/DO-18 kimberlites - Part 3: Induced polarization
             </span><br>
                 <span class="card-date">(2016)</span><br></div>
     </div></a>

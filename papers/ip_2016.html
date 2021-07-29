@@ -11,19 +11,19 @@
 
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:creator" content="@sgkang09">
-        <meta name="twitter:image" content="https://sgkang.github.io/images/thumb/simpeg.png">
+        <meta name="twitter:image" content="https://sgkang.github.io/images/thumb/ip_2016.jpg">
     <meta name="twitter:site" content="@sgkang09">
-    <meta name="twitter:title" content="SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications">
-            <meta name="twitter:description" content="Abstract Inverse modeling is a powerful tool for extracting information about the subsurface from geophysical data. Geophysical inverse prob...">
+    <meta name="twitter:title" content="On recovering distributed IP information from inductive source time domain electromagnetic data">
+            <meta name="twitter:description" content="Abstract We develop a procedure to invert time domain induced polarization (IP) data for inductive sources. Our approach is based upon the i...">
 
-    <meta property="og:title" content="SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications">
+    <meta property="og:title" content="On recovering distributed IP information from inductive source time domain electromagnetic data">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sgkang.github.io/papers/simpeg2015.html">
+    <meta property="og:url" content="https://sgkang.github.io/papers/ip_2016.html">
     <meta property="og:site_name" content="Seogi Kang">
-        <meta property="og:image" content="https://sgkang.github.io/images/thumb/simpeg.png">
-            <meta property="og:description" content="Abstract Inverse modeling is a powerful tool for extracting information about the subsurface from geophysical data. Geophysical inverse prob...">
+        <meta property="og:image" content="https://sgkang.github.io/images/thumb/ip_2016.jpg">
+            <meta property="og:description" content="Abstract We develop a procedure to invert time domain induced polarization (IP) data for inductive sources. Our approach is based upon the i...">
 
-    <title>    SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications | Seogi Kang
+    <title>    On recovering distributed IP information from inductive source time domain electromagnetic data | Seogi Kang
 </title>
     <link rel="shortcut icon" href="/images/favicon.png">
 
@@ -63,11 +63,11 @@
         <li><a href="/">Home</a></li><li><a href="/papers/">Papers</a></li></ol>
 
 
-    <h1>SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications</h1>
+    <h1>On recovering distributed IP information from inductive source time domain electromagnetic data</h1>
 
         <p class="pub-date-author">
-            Rowan Cockett, <strong>Seogi Kang</strong>, Lindsey Heagy, Adam Pidlisekcy, Douglas Oldenburg
-                <span class="post-date">(2015)</span>
+            <strong>Seogi Kang</strong>, Douglas Oldenburg
+                <span class="post-date">(2016)</span>
         </p>
 
     
@@ -76,27 +76,24 @@
 
     <div class="info">
         <ul class="fa-ul"><li>
-                <i class="fa-li ai ai-open-access fa-fw" title="Open-access article"></i>
-                Open-Access
-            </li><li>
                 <i class="fa-li fa fa-book fa-fw" title="Journal name"></i>
-                Journal: <em>Computers and Geosciences</em>
+                Journal: <em>Geophysical Journal International</em>
             </li><li>
                 <i class="fa-li fa fa-external-link fa-fw" title="DOI link to publisher"></i>
-                doi: <a href="https://doi.org/10.1016/j.cageo.2015.09.015">10.1016/j.cageo.2015.09.015</a>
+                doi: <a href="https://doi.org/10.1093/gji/ggw256">10.1093/gji/ggw256</a>
             </li><li>
                 <i class="fa-li fa fa-tags fa-fw" title="tags"></i>
                     <div class="tag-list">
-        <ul><li><span class="label label-default tag tag-link"><a href="/tag/simpeg">simpeg</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/open-source">open-source</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/simulation">simulation</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/inversion">inversion</a></span></li></ul>
+        <ul><li><span class="label label-default tag tag-link"><a href="/tag/em">em</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/ip">ip</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/inductive source">inductive source</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/minerals">minerals</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/simulation">simulation</a></span></li><li><span class="label label-default tag tag-link"><a href="/tag/inversion">inversion</a></span></li></ul>
     </div>
             </li></ul>
     </div>
 
     <h2 id="abstract">Abstract</h2>
-<p>Inverse modeling is a powerful tool for extracting information about the subsurface from geophysical data. Geophysical inverse problems are inherently multidisciplinary, requiring elements from the relevant physics, numerical simulation, and optimization, as well as knowledge of the geologic setting, and a comprehension of the interplay between all of these elements. The development and advancement of inversion methodologies can be enabled by a framework that supports experimentation, is flexible and extensible, and allows the knowledge generated to be captured and shared. The goal of this paper is to propose a framework that supports many different types of geophysical forward simulations and deterministic inverse problems. Additionally, we provide an open source implementation of this framework in Python called SimPEG (Simulation and Parameter Estimation in Geophysics, http://simpeg.xyz). Included in SimPEG are staggered grid, mimetic finite volume discretizations on a number of structured and semi-structured meshes, convex optimization programs, inversion routines, model parameterizations, useful utility codes, and interfaces to standard numerical solver packages. The framework and implementation are modular, allowing the user to explore, experiment with, and iterate over a variety of approaches to the inverse problem. SimPEG provides an extensible, documented, and well-tested framework for inverting many types of geophysical data and thereby helping to answer questions in geoscience applications. Throughout the paper we use a generic direct current resistivity problem to illustrate the framework and functionality of SimPEG.</p>
+<p>We develop a procedure to invert time domain induced polarization (IP) data for inductive sources. Our approach is based upon the inversion methodology in conventional electrical IP (EIP), which uses a sensitivity function that is independent of time. However, significant modifications are required for inductive source IP (ISIP) because electric fields in the ground do not achieve a steady state. The time-history for these fields needs to be evaluated and then used to define approximate IP currents. The resultant data, either a magnetic field or its derivative, are evaluated through the Biot-Savart law. This forms the desired linear relationship between data and pseudo-chargeability. Our inversion procedure has three steps: (1) Obtain a 3-D background conductivity model. We advocate, where possible, that this be obtained by inverting early-time data that do not suffer significantly from IP effects. (2) Decouple IP responses embedded in the observations by forward modelling the TEM data due to a background conductivity and subtracting these from the observations. (3) Use the linearized sensitivity function to invert data at each time channel and recover pseudo-chargeability. Post-interpretation of the recovered pseudo-chargeabilities at multiple times allows recovery of intrinsic Cole-Cole parameters such as time constant and chargeability. The procedure is applicable to all inductive source survey geometries but we focus upon airborne time domain EM (ATEM) data with a coincident-loop configuration because of the distinctive negative IP signal that is observed over a chargeable body. Several assumptions are adopted to generate our linearized modelling but we systematically test the capability and accuracy ofthe linearization for ISIP responses arising from different conductivity structures. On test examples we show: (1) our decoupling procedure enhances the ability to extract information about existence and location of chargeable targets directly from the data maps; (2) the horizontal location of a target body can be well recovered through inversion; (3) the overall geometry ofa target body might be recovered but for ATEM data a depth weighting is required in the inversion; (4) we can recover estimates of intrinsic τ and η that may be useful for distinguishing between two chargeable targets.</p>
 
         <h2>Citation</h2>
-        <p>Cockett, R., S. Kang, L. J. Heagy, A. Pidlisecky, and D. W. Oldenburg, 2015, SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications: Computers & Geosciences, 85, Part A, 142–154.</p>
+        <p>Kang, S., and D. W. Oldenburg, 2016, On recovering distributed IP information from inductive source time domain electromagnetic data: Geophysical Journal International, 207, 174–196. doi: 10.1093/gji/ggw256</p>
 
 <h2>Article Level Metrics</h2>
 
@@ -106,23 +103,23 @@
              data-badge-details="right"
              data-condensed="true"
              data-badge-type="medium-donut"
-             data-doi="10.1016/j.cageo.2015.09.015"
+             data-doi="10.1093/gji/ggw256"
         >
         </div>
                         </div></div>
                 </div><div class="col-md-6 altmetric-badge-group">
                     <div class="row"><div class="col-xs-12">
-                            <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cageo.2015.09.015" data-legend="always"></span>
+                            <span class="__dimensions_badge_embed__" data-doi="10.1093/gji/ggw256" data-legend="always"></span>
                         </div></div>
                 </div></div>    <hr><div class="panel panel-default feedback">
         <div class="panel-body">
                 <i class="fa fa-comments fa-fw" title=""></i><strong>Comments?</strong>
             Let me know on Twitter
-            (<a href="https://twitter.com/intent/tweet?text=@sgkang09&url=https://sgkang.github.io/papers/simpeg2015.html">tweet @sgkang09</a>).</div>
+            (<a href="https://twitter.com/intent/tweet?text=@sgkang09&url=https://sgkang.github.io/papers/ip_2016.html">tweet @sgkang09</a>).</div>
     </div><div class="panel panel-default feedback">
         <div class="panel-body">
                 <i class="fa fa-bug fa-fw" title=""></i><strong>Found a typo/mistake?</strong>
-            Send a <a href="https://github.com/sgkang/website/edit/master/papers\simpeg2015.md">fix through Github</a>.
+            Send a <a href="https://github.com/sgkang/website/edit/master/papers\ip_2016.md">fix through Github</a>.
             All you need is an account and 5 minutes!</div>
     </div>
 
@@ -152,28 +149,28 @@
                 <span class="card-date">(2021)</span><br></div>
     </div></a>
                     </div></div></div><div class="col-md-6"><div class="row"><div class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="/papers/powerline2021.html">
+                        <a href="/papers/tkc_2017.html">
     <div class="row card">
         <div class="col-md-12 card-thumbnail">
             <img class="" alt="Thumbnail image for publication."
-         src="/images/thumb/powerline_aem.gif">
+         src="/images/thumb/tkc_2017.png">
         </div>
         <div class="col-md-12 card-caption"><span class="card-title">
-                The effect of power lines on time-domain airborne electromagnetic data
-            </span><br>
-                <span class="card-date">(2021)</span><br></div>
-    </div></a>
-                    </div><div class="col-md-6 col-sm-6 col-xs-6">
-                        <a href="/papers/ip_2016.html">
-    <div class="row card">
-        <div class="col-md-12 card-thumbnail">
-            <img class="" alt="Thumbnail image for publication."
-         src="/images/thumb/ip_2016.jpg">
-        </div>
-        <div class="col-md-12 card-caption"><span class="card-title">
-                On recovering distributed IP information from inductive source time domain electromagnetic data
+                Inversion of airborne geophysics over the DO-27/DO-18 kimberlites - Part 3: Induced polarization
             </span><br>
                 <span class="card-date">(2016)</span><br></div>
+    </div></a>
+                    </div><div class="col-md-6 col-sm-6 col-xs-6">
+                        <a href="/papers/simpeg2015.html">
+    <div class="row card">
+        <div class="col-md-12 card-thumbnail">
+            <img class="" alt="Thumbnail image for publication."
+         src="/images/thumb/simpeg.png">
+        </div>
+        <div class="col-md-12 card-caption"><span class="card-title">
+                SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications
+            </span><br>
+                <span class="card-date">(2015)</span><br></div>
     </div></a>
                     </div></div></div></div></div>
 
