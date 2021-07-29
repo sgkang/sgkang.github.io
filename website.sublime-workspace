@@ -1,0 +1,806 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"b_aquifer"
+			],
+			[
+				"up",
+				"update_mesh"
+			],
+			[
+				"pert",
+				"perturb_model"
+			],
+			[
+				"per",
+				"perturbation"
+			],
+			[
+				"model",
+				"model_dict"
+			],
+			[
+				"Ss",
+				"SskvMap"
+			],
+			[
+				"Sske",
+				"SskeMap"
+			],
+			[
+				"to",
+				"toarray"
+			],
+			[
+				"Div",
+				"DivB"
+			],
+			[
+				"del",
+				"delattr"
+			],
+			[
+				"src",
+				"source_list"
+			],
+			[
+				"time",
+				"time_mesh"
+			],
+			[
+				"ti",
+				"time_simulation"
+			],
+			[
+				"Base",
+				"BaseSurvey"
+			],
+			[
+				"get",
+				"get_J_h_aquifer"
+			],
+			[
+				"Ssk",
+				"SskvDeriv"
+			],
+			[
+				"get_J",
+				"get_J_n_equiv"
+			],
+			[
+				"h",
+				"h_aquifer"
+			],
+			[
+				"Sskv",
+				"Sskv_current"
+			],
+			[
+				"n",
+				"n_equiv"
+			],
+			[
+				"Sim",
+				"Simulation2DCellCentered"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"freq",
+				"frequencies"
+			],
+			[
+				"use",
+				"use_sounding"
+			],
+			[
+				"EM",
+				"EM1DFMSimulation"
+			],
+			[
+				"fdem",
+				"fdem_1d"
+			],
+			[
+				"temp",
+				"temp_slice"
+			],
+			[
+				"rad",
+				"radial_distance"
+			],
+			[
+				"sour",
+				"source_orientation"
+			],
+			[
+				"int",
+				"integral_output"
+			],
+			[
+				"i",
+				"i_sounding"
+			],
+			[
+				"n_f",
+				"n_frequency"
+			],
+			[
+				"mag",
+				"magnetic_dipole_response_by_sounding"
+			],
+			[
+				"recei",
+				"receiver_list"
+			],
+			[
+				"_fre",
+				"_frequencies_by_sounding"
+			],
+			[
+				"soun",
+				"sounding_number_chunks"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"sou",
+				"source_location_by_sounding_dict"
+			],
+			[
+				"out",
+				"output_type"
+			],
+			[
+				"sen",
+				"sensitivity_sigma"
+			],
+			[
+				"fre",
+				"frequency_domain_1d"
+			],
+			[
+				"wave",
+				"waveform_current"
+			],
+			[
+				"Point",
+				"PointMagneticFieldTimeDerivative"
+			],
+			[
+				"Poin",
+				"PointMagneticField"
+			],
+			[
+				"rec",
+				"receivers"
+			],
+			[
+				"is",
+				"isinstance"
+			],
+			[
+				"Ra",
+				"RawWaveform"
+			],
+			[
+				"source",
+				"source_locations"
+			],
+			[
+				"frequ",
+				"frequencies"
+			],
+			[
+				"ins",
+				"isinstance"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"da",
+				"data_type"
+			],
+			[
+				"data",
+				"data_types"
+			],
+			[
+				"spa",
+				"spatial"
+			],
+			[
+				"rho",
+				"rho_0"
+			],
+			[
+				"fac",
+				"face_weights"
+			],
+			[
+				"ind",
+				"indActive"
+			],
+			[
+				"inds",
+				"inds_air"
+			],
+			[
+				"interp",
+				"interp1d"
+			],
+			[
+				"inter",
+				"interpolate"
+			],
+			[
+				"layer",
+				"layer_thickness"
+			],
+			[
+				"lay",
+				"layer_thickness"
+			],
+			[
+				"n_",
+				"n_tower"
+			],
+			[
+				"topo",
+				"toponame"
+			],
+			[
+				"input",
+				"input_type"
+			],
+			[
+				"tmp",
+				"tmp_contour"
+			],
+			[
+				"con",
+				"continuous_update"
+			],
+			[
+				"doi",
+				"doi_index"
+			],
+			[
+				"show",
+				"show_smooth"
+			],
+			[
+				"max",
+				"maxIter"
+			],
+			[
+				"Int",
+				"IntSlider"
+			],
+			[
+				"asp",
+				"aspect_ratio"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/sgkan/Projects/website"
+	],
+	"file_history":
+	[
+		"/C/Users/sgkan/Projects/website/website",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain/sources.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/__init__.py",
+		"/C/Users/sgkan/Downloads/network-monitoring",
+		"/C/Users/sgkan/Dropbox/Stanford/Kaweah/leapfrog/kaweah-tmp.tfw",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain/simulation_emg3d.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/simulation.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/survey.py",
+		"/C/Users/sgkan/Projects/insarinv/insarinv/survey.py",
+		"/C/Users/sgkan/Projects/simpegEM1D/simpegEM1D/Waveforms.py",
+		"/C/Users/sgkan/Projects/insarinv/insarinv/__init__.py",
+		"/C/Users/sgkan/Dropbox/Researches/curvenote/subsidence/from_matt/paramfile.par",
+		"/C/Users/sgkan/Dropbox/Stanford/Kaweah/leapfrog/merged/resistivity_merged.lfc",
+		"/C/Users/sgkan/Projects/rockphysics/rockphysics/turbo.py",
+		"/C/Users/sgkan/Projects/rockphysics/rockphysics/leapfrog.py",
+		"/C/Users/sgkan/Projects/simpeg/README.rst",
+		"/C/Users/sgkan/Projects/discretize/discretize/operators/differential_operators.py",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/run_sgems.py",
+		"/C/Users/sgkan/Downloads/nosbatc/nosbatc/nosbatc.e00",
+		"/C/Users/sgkan/Dropbox/Stanford/Kerry-Rosemary/Datasets/bathymetric contours (Stanford source)/10m_cont.shp.xml",
+		"/C/Users/sgkan/Dropbox/DataViz/CV_dS/Readme.md",
+		"/C/Users/sgkan/Projects/insarinv/insarinv/simulation.py",
+		"/C/Users/sgkan/Projects/insarinv/environment.yml",
+		"/C/Users/sgkan/Projects/insarinv/README.md",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/base.py",
+		"/C/Users/sgkan/Projects/simpeg/tutorials/02-linear_inversion/plot_inv_1_inversion_lsq.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/inverse_problem.py",
+		"/C/Users/sgkan/Projects/insarinv/.github/workflows/testing_in_conda.yml",
+		"/C/Users/sgkan/Projects/insarinv/requirements_dev.txt",
+		"/C/Users/sgkan/Projects/simpeg/setup.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain/survey.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testEM1D_FD_jac_layers.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/base_1d.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain_1d/supporting_functions/kernels_by_sounding.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain_1d/waveforms.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain_1d/__init__.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testEM1D_FD_fwd.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain_1d/simulation.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain_1d/simulation.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain/survey.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain_1d/supporting_functions/kernels.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testGlobalEM1D_FD_jac_layers.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain/receivers.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testEM1D_TD_general_fwd.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testEM1D_TD_dual_moment_fwd.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testGlobalEM1D_TD_jac_layers_dual_moment.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testGlobalEM1D_TD_jac_layers.py",
+		"/C/Users/sgkan/Projects/geoana/geoana/kernels/tranverse_electric_reflections.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain_1d/supporting_functions/__init__.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testEM1D_TD_off_jac_layers.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/objective_function.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/__init__.py",
+		"/C/Users/sgkan/Projects/simpegEM1D/simpegEM1D/GlobalEM1D.py",
+		"/C/Users/sgkan/Projects/simpegEM1D/simpegEM1D/EM1D.py",
+		"/C/Users/sgkan/Projects/geoana/geoana/kernels/_extensions/setup.py",
+		"/C/Users/sgkan/Projects/geoana/geoana/kernels/setup.py",
+		"/C/Users/sgkan/Dropbox/Researches/curvenote/em1d-hack/MPIpool.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain_1d/__init__.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/data.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain/simulation.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain_1d/survey.py",
+		"/C/Users/sgkan/Projects/simpegEM1D/simpegEM1D/Survey.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain/sources.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain/simulation.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain/receivers.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testEM1D_TD_off_fwd.py",
+		"/C/Users/sgkan/Projects/simpeg/tests/em/em1d/testEM1D_TD_general_jac_layers.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain_1d/supporting_functions/waveform_functions.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain_1d/receivers.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/time_domain_1d/sources.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/em1d/sources.py",
+		"/C/Users/sgkan/Projects/transform-2021-simpeg/environment.yml",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain_1d/survey.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain_1d/sources.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/frequency_domain_1d/receivers.py",
+		"/C/Users/sgkan/Projects/transform-2021-simpeg/.travis.yml",
+		"/C/Users/sgkan/Projects/transform-2021-simpeg/environment_for_test.yml",
+		"/C/Users/sgkan/Projects/transform-2021-simpeg/tests/test_notebooks.py",
+		"/C/Users/sgkan/Projects/transform-2021-simpeg/requirements_dev.txt",
+		"/C/Users/sgkan/Projects/gwb-dc-inversions/environment.yml",
+		"/C/Users/sgkan/Projects/transform-2021-simpeg/README.md",
+		"/C/Users/sgkan/Dropbox/Stanford/Kaweah/notebooks/for_meredith/README.txt",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/static/utils/static_utils.py",
+		"/C/Users/sgkan/Dropbox/Course Slides/2019-Argentina/Resources/lots_of_equations.tex",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/regularization/sparse.py",
+		"/C/Users/sgkan/Projects/rockphysics/rockphysics/rockphysics.py",
+		"/C/Users/sgkan/Projects/geosci-labs/geoscilabs/inversion/LinearInversionDirect.py",
+		"/C/Users/sgkan/Dropbox/Stanford/Kaweah/notebooks/for_paul/readme.txt",
+		"/C/Users/sgkan/Projects/gwb-dc-inversions/notebooks/utils/DCWidget3Layer2_5D.py",
+		"/C/Users/sgkan/Projects/gwb-dc-inversions/notebooks/utils/DCResistivity.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/static/induced_polarization/simulation_2d.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/electromagnetics/static/resistivity/simulation.py",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/regularization/tikhonov.py",
+		"/C/Users/sgkan/Projects/simpegEM1D/simpegEM1D/AEMInterpolation.py",
+		"/C/Users/sgkan/Dropbox/Stanford/Kaweah/notebooks/inversion_results/aem-inversion-kaweah-ds-sparse.py",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/11_Shapefiles/faults/known-faults.prj",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/11_Shapefiles/faults/known-faults.shx",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/11_Shapefiles/faults/known-faults.cpg",
+		"/C/Users/sgkan/Projects/rockphysics/rockphysics/__init__.py",
+		"/C/Users/sgkan/Projects/simpegEM1D/simpegEM1D/__init__.py",
+		"/C/Users/sgkan/Dropbox/Stanford/Kaweah/SkyTEM/kaweah_xyz/110918_01_AVG_export.xyz",
+		"/C/Users/sgkan/Projects/rockphysics/rockphysics/utils.py",
+		"/C/Users/sgkan/Dropbox/Stanford/Kaweah/geosoft_xyz/Kaweah_EM312_MAG.xyz",
+		"/C/Users/sgkan/Projects/simpegEM1D/simpegEM1D/survey.py",
+		"/C/Users/sgkan/Downloads/tandf_texg2051_122.bib",
+		"/C/Users/sgkan/Downloads/2214-4609-pdb.183.315-327 (1).bib",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Synthetic_modeling/SimPEG/Py_files/forward_data_sens.py",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Synthetic_modeling/SimPEG/Py_files/forward_setup_VTEM_ET.py",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Synthetic_modeling/SimPEG/Py_files/forward_setup_SkyTEM304.py",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Synthetic_modeling/AGF/304/20200820_20016_MRNRD_SkyTEM304_Preliminary .gex",
+		"/C/Users/sgkan/Projects/simpegEM1D/setup.py",
+		"/C/Users/sgkan/Downloads/seg_gpysa785_EN63.bib",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Survey/AGF_delivery/Appendix 6 - Raw_AEM_Data_Files/IVF_ProcessedData/ProcessedData/1201FL1Dpr_RAW_NoDecoupling_wRawSTD.xyz",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/sand-fraction-sgems.txt",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/mps_inputs/input-sgems-1.in",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/sgems-mps-wells.par",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/run_sgems-paso.in",
+		"/C/Users/sgkan/Projects/simpeg/SimPEG/regularization/variogram.py",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Survey/AGF_delivery/Appendix 6 - Raw_AEM_Data_Files/2_SkyTEM_SKB_GEX_LIN_Data/SystemDesc_GEX/20201231_20023_IVF_SkyTEM304_SKB.gex",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Survey/AGF_delivery/Appendix 6 - Raw_AEM_Data_Files/20201202_20023_CentralValleyFoothills_SkyTEM304_SKB.gex",
+		"/C/Users/sgkan/Downloads/tem_hs2_sk.py",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/run_krig.in",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/run_test.in",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/run_test_1.in",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/notebooks/sgems/run-ti.in",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Survey/AGF_delivery/Appendix 6 - Raw_AEM_Data_Files/2_SkyTEM_SKB_GEX_LIN_Data/SystemDesc_GEX/20201231_20023_IVF_SkyTEM304_SR2.sr2",
+		"/C/Users/sgkan/Dropbox/Klara-Rosemary/FOOTHILLS PROJECT/Survey/AGF_delivery/Appendix 6 - Raw_AEM_Data_Files/IVF_ProcessedData/ProcessedData/1201FL1Cpr_RAW_Decoupled.xyz",
+		"/C/Users/sgkan/Dropbox/Stanford/SanLuisObispo/01_Data/05_SkyTEM/skytem_xyz/P20191105_1_AVG_export.xyz"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 401.0,
+		"where_history":
+		[
+			"C:\\Users\\sgkan\\Projects\\simpeg\\SimPEG\\electromagnetics\\time_domain_1d",
+			"C:\\Users\\sgkan\\Projects\\simpeg\\electromagnetics\\",
+			"C:\\Users\\sgkan\\Projects\\simpeg\\electromagnetics\\frequency_domain_1d\\",
+			"C:\\Users\\sgkan\\Projects\\simpeg\\electromagnetics\\frequency_domain_1d",
+			"C:\\Users\\sgkan\\Projects\\simpeg",
+			"C:\\Users\\sgkan\\Projects\\discretize\\discretize"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"self.emg3d_survey",
+			"dipole",
+			"Sska",
+			"def fields",
+			"med",
+			"f['c",
+			"b_v",
+			"med",
+			"pdiff",
+			"C'",
+			"vstack",
+			"Pa",
+			"PTa",
+			"vstack",
+			"hstack",
+			"drhsdh",
+			"_J_h_aquifer",
+			"def get_J_h_aqui",
+			"print",
+			".maps[0]",
+			"Sskv",
+			"get_J_Kv",
+			"get_J_Sske",
+			"get_J_Sskv",
+			"1]",
+			"Sske",
+			"simulation.",
+			"Sske",
+			"Sskv",
+			"J_Sske",
+			"J_Sskv",
+			"m1",
+			"_J_b_aquifer",
+			"print",
+			"update_mesh",
+			"def update_mesh",
+			"print",
+			"b_aquifer",
+			"def update",
+			"def dz",
+			", floor=1",
+			"print",
+			"Cv = ",
+			"Sskv",
+			"n_equiv",
+			"print",
+			"0.0",
+			"3",
+			"1",
+			"floor",
+			"hmin",
+			", adjoint=False",
+			"n_equiv",
+			"J_h_min0",
+			"J_Sska",
+			"self._J_n_equiv",
+			"Sske",
+			".ravel",
+			"r(",
+			"self.",
+			"Sskv",
+			", ",
+			"None",
+			",",
+			"Sske",
+			"+dSske",
+			"-dSske",
+			"Sskv",
+			"Map.T",
+			"Map @",
+			"Map",
+			"=",
+			"self.",
+			"= ",
+			"0.01",
+			"self.SskeMap.P.T * tmp",
+			"np.ones",
+			"self.",
+			"[0]",
+			"Deriv",
+			"SskvDeriv",
+			"MapMap",
+			"Deriv",
+			"mapping",
+			"MapDeriv",
+			"Map",
+			"b_equiv",
+			"h_min0",
+			"n_equiv",
+			"b_equiv",
+			"Kv",
+			"Sske",
+			"SskeMap",
+			"e",
+			"Sske",
+			"print",
+			"def dpred",
+			"np.asscalar(",
+			"self.",
+			"[0]",
+			"Ce",
+			"self.self.",
+			"np.asscalar",
+			"not None",
+			"todo",
+			"Sske",
+			"adjoint=True",
+			"J_h_min0",
+			"b_equiv",
+			"J_b_equiv",
+			"J_Kv",
+			"_J_Sske",
+			"J_Sske",
+			"skv",
+			"Sskv",
+			"J_Sskv",
+			"J_h_aquifer",
+			"J_h_aquiferT",
+			"PT",
+			"get_drhs",
+			"Solver",
+			"self.Solver",
+			"self.",
+			"time_self",
+			"simulation.",
+			"f=f",
+			"self.fields",
+			"def get_A"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 139.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 287.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "website",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"si",
+				"C:\\Users\\sgkan\\Projects\\simpegEM1D\\simpegEM1D-seogi.sublime-project"
+			],
+			[
+				"",
+				"C:\\Users\\sgkan\\Projects\\simpeg\\simpeg-seogi.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 356.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
